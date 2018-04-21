@@ -1,0 +1,94 @@
+﻿/*Common styles*/
+@font-face {
+    font-family: menimFontum;
+    src: url(../fonts/Acidic.otf);
+}
+body{
+    margin:0px;
+}
+.container {
+    width: 1000px;
+    /*background: yellow;*/
+    height: 100%;
+    margin: 0px auto;
+    padding: 30px 0px;
+    border: 1px solid black;
+    /*border-width:1px;
+    border-style:solid;
+    border-color:black;*/
+}
+.clear {
+    clear: both;
+}
+
+/* Navigation Bar Section*/
+#nav-bar{
+    width:100%;
+
+    /*background:cyan;*/
+}
+.logo{
+ width:100px;
+ display:inline-block;
+ float:left;
+
+
+
+
+}
+.logo img{
+    width:100%;
+}
+
+.navigation {
+    /*display: inline-block;*/
+    float: right;
+
+}
+.navigation ul{
+    padding-left:0px;
+    margin:0px;
+}
+.navigation ul li{
+    list-style:none;
+    display:inline-block;
+    margin-right:20px;
+}
+    .navigation ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 35px;
+        color: black;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+/* Slider Section*/
+#slider {
+}
+
+.flag {
+    width: 150px;
+    height: 150px;
+    background:red;
+    border-radius:20px 20px 0px 0px;
+}
+/* Features Section*/
+#features {
+}
+
+
+/* Services Section*/
+#services {
+}
+
+/* Works Section*/
+#works {
+}
+
+/* Blog Section*/
+#blog {
+}
+
+/* Footer Section*/
+#footer {
+}
